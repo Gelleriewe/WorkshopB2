@@ -11,7 +11,7 @@ and open the template in the editor.
         <?php include 'include/head.php'; ?>
                 <script src="./javascript/index.js"></script>
                 <!--  CSS général -->
-                <link rel="stylesheet" href="./CSS/CSS_Index.css">
+                <link rel="stylesheet" href="CSS/CSS_Index.css">
     </head>
     <body>
 
