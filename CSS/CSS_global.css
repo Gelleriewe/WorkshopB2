@@ -1,0 +1,57 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    padding-top: 10vh;
+}
+
+#navbar{
+    min-height: 8vh;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+#navbar>div{
+    width: 50%;
+    display: flex
+
+}
+
+#navbar>div:nth-child(1){
+    justify-content: flex-start;
+}
+
+#navbar>div:nth-child(2){
+    justify-content: flex-end;
+}
+
+
+@media screen and (min-width: 0px) {
+    #navbar>div>ul{
+        display: none;
+
+    }
+        #navbar>div>i{
+        display: block;
+
+    }
+
+}
+
+
+@media screen and (min-width: 720px) {
+    #navbar>div>ul{
+        display: flex;
+
+    }
+        #navbar>div>i{
+        display: none;
+
+    }
+
+}

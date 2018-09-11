@@ -1,0 +1,93 @@
+table.highlight > tbody > tr:hover {
+    background-color: rgb(161, 213, 236);
+}
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+@media screen and (min-width: 0px) {
+
+
+
+    .search-bar {
+        flex-direction: column;
+    }
+
+
+
+    .search-bar>.s5 {
+        width: 100% !important; 
+        left: auto !important;
+        right: auto !important;
+    }
+    .search-bar>.s3 {
+        width: 100% !important; 
+        left: auto !important;
+        right: auto !important;
+    }
+    .search-bar>.s2 {
+        width: 100% !important; 
+        left: auto !important;
+        right: auto !important;
+    }
+    .search-bar>.s1 {
+        width: 100% !important; 
+        left: auto !important;
+        right: auto !important;
+    }
+
+
+
+
+}
+@media screen and (min-width: 720px) {
+
+    .search-bar {
+        flex-direction: row;
+    }
+
+    .search-bar>.s5 {
+        width: 41.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .search-bar>.s3 {
+        width: 25%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .search-bar>.s2 {
+        width: 16.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .search-bar>.s1 {
+        width: 8.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+
+
+
+
+}
+
+.add-bon-plan{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.add-bon-plan>a{
+    max-width: 200px;
+}
