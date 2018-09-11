@@ -105,7 +105,7 @@ table.highlight > tbody > tr:hover {
 
 
 #bons-plans>.card-BP{
-    box-shadow: 0px 0px 3px 0px black;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.47);
     width: 600px;
     height: 300px;
     display: flex;
@@ -147,24 +147,35 @@ table.highlight > tbody > tr:hover {
     height: 60px;
     padding-left: 10px;
     padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .cat{
-    width: auto;
-    max-width: 30%;
+    height: 40px;
+    width: 30%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #f7790d;
     border-radius: 30px;
     box-shadow: 2px 2px 10px lightgrey;
-    color: white;
-    
-    
+
+
 
 
 }
+
+.cat-orange{
+    background-color: #f7790d;
+    color: white;
+}
+
+
 .cat>img{
     height: 50px;
     width: 50px;
