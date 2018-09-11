@@ -47,7 +47,7 @@ and open the template in the editor.
                     <option value="2">Paris</option>
                     <option value="3">Les Sables d'Olonne</option>
                 </select>
-                <label>Campus</label>
+                <label>Type de Bon plan</label>
             </div>
 
 
