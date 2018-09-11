@@ -1,6 +1,7 @@
 body,html{
     margin: 0px;
     padding: 0px;
+    height: 200vh;
 }
 
 
@@ -9,7 +10,7 @@ body{
 }
 
 #navbar{
-    min-height: 8vh;
+    min-height: 10vh;
     display: flex;
     position: fixed;
     top: 0px;

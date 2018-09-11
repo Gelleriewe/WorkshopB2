@@ -47,12 +47,51 @@ and open the template in the editor.
                     <option value="2">Paris</option>
                     <option value="3">Les Sables d'Olonne</option>
                 </select>
-                <label>Campus</label>
+                <label>Type de Bon plan</label>
             </div>
 
 
 
         </div>
+
+        <div id="bons-plans">
+
+            <div class="card-BP">
+                <img src="https://www.shbarcelona.fr/blog/fr/wp-content/uploads/2016/05/boire-un-verre1-810x538.jpg">
+                <div class="card-summary">
+                    <h3>Titre</h3>
+                    <p>Alan Bartlett Shepard Jr. est un aviateur naval, pilote d'essai, astronaute et homme d'affaires américain né le 18 novembre 1923 à Derry (New Hampshire) et mort le 21 juillet 1998 à Pebble Beach (Californie). En 1961, il devient le premier Américain à voyager dans l'espace et, en 1971, il marche sur la Lune</p>
+                </div>
+                <div class='category'>
+                    <div class="cat"><img src="https://img.grouponcdn.com/deal/6u9cZkt6KgM2Nj2MHg9YVKqk25S/6u-2048x1229/v1/c700x420.jpg"><p><strong>Boire un coup</strong></p></div>
+                </div>
+            </div>
+            <div class="card-BP">
+                <img src="https://www.shbarcelona.fr/blog/fr/wp-content/uploads/2016/05/boire-un-verre1-810x538.jpg">
+                <div class="card-summary">
+                    <h3>Titre</h3>
+                    <p>Alan Bartlett Shepard Jr. est un aviateur naval, pilote d'essai, astronaute et homme d'affaires américain né le 18 novembre 1923 à Derry (New Hampshire) et mort le 21 juillet 1998 à Pebble Beach (Californie). En 1961, il devient le premier Américain à voyager dans l'espace et, en 1971, il marche sur la Lune</p>
+                </div>
+                <div class='category'></div>
+            </div>
+            <div class="card-BP">
+                <img src="https://www.shbarcelona.fr/blog/fr/wp-content/uploads/2016/05/boire-un-verre1-810x538.jpg">
+                <div class="card-summary">
+                    <h3>Titre</h3>
+                    <p>Alan Bartlett Shepard Jr. est un aviateur naval, pilote d'essai, astronaute et homme d'affaires américain né le 18 novembre 1923 à Derry (New Hampshire) et mort le 21 juillet 1998 à Pebble Beach (Californie). En 1961, il devient le premier Américain à voyager dans l'espace et, en 1971, il marche sur la Lune</p>
+                </div>
+                <div class='category'></div>
+            </div>
+            <div class="card-BP">
+                <img src="https://www.shbarcelona.fr/blog/fr/wp-content/uploads/2016/05/boire-un-verre1-810x538.jpg">
+                <div class="card-summary">
+                    <h3>Titre</h3>
+                    <p>Alan Bartlett Shepard Jr. est un aviateur naval, pilote d'essai, astronaute et homme d'affaires américain né le 18 novembre 1923 à Derry (New Hampshire) et mort le 21 juillet 1998 à Pebble Beach (Californie). En 1961, il devient le premier Américain à voyager dans l'espace et, en 1971, il marche sur la Lune</p>
+                </div>
+                <div class='category'></div>
+            </div>
+        </div>
+        <!--
         <div class="tableau-bons-plans">
             <table class="highlight striped">
                 <thead>
@@ -95,16 +134,18 @@ and open the template in the editor.
             </table>
 
 
-            <ul class="pagination right">
-                <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
-                <li class="active"><a href="#!">1</a></li>
-                <li class="waves-effect"><a href="#!">2</a></li>
-                <li class="waves-effect"><a href="#!">3</a></li>
-                <li class="waves-effect"><a href="#!">4</a></li>
-                <li class="waves-effect"><a href="#!">5</a></li>
-                <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
-            </ul>
-        </div>
+
+        <ul class="pagination right">
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+            <li class="active"><a href="#!">1</a></li>
+            <li class="waves-effect"><a href="#!">2</a></li>
+            <li class="waves-effect"><a href="#!">3</a></li>
+            <li class="waves-effect"><a href="#!">4</a></li>
+            <li class="waves-effect"><a href="#!">5</a></li>
+            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+    </div>
+        -->
         <div class="add-bon-plan">
             <h3>Envie d'ajouter ta propre activité ?</h3>
             <a class="waves-effect waves-light btn col s1"><i class="material-icons left">playlist_add</i>Ajouter</a>
