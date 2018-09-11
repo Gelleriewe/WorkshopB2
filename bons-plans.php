@@ -53,19 +53,36 @@ and open the template in the editor.
 
 
         </div>
-        <div id="bons-plans row">
 
-            <div class="card col s6">
+        <div id="bons-plans">
 
+            <div class="card-BP">
+                <img src="https://www.shbarcelona.fr/blog/fr/wp-content/uploads/2016/05/boire-un-verre1-810x538.jpg">
+                <div class="card-summary">
+                    <h3>Titre</h3>
+                    <p>Alan Bartlett Shepard Jr. est un aviateur naval, pilote d'essai, astronaute et homme d'affaires américain né le 18 novembre 1923 à Derry (New Hampshire) et mort le 21 juillet 1998 à Pebble Beach (Californie). En 1961, il devient le premier Américain à voyager dans l'espace et, en 1971, il marche sur la Lune</p>
+                </div>
             </div>
-            <div class="card col s6">
-
+            <div class="card-BP">
+                <img src="https://www.shbarcelona.fr/blog/fr/wp-content/uploads/2016/05/boire-un-verre1-810x538.jpg">
+                <div class="card-summary">
+                    <h3>Titre</h3>
+                    <p>Alan Bartlett Shepard Jr. est un aviateur naval, pilote d'essai, astronaute et homme d'affaires américain né le 18 novembre 1923 à Derry (New Hampshire) et mort le 21 juillet 1998 à Pebble Beach (Californie). En 1961, il devient le premier Américain à voyager dans l'espace et, en 1971, il marche sur la Lune</p>
+                </div>
             </div>
-            <div class="card col s6">
-
+            <div class="card-BP">
+                <img src="https://www.shbarcelona.fr/blog/fr/wp-content/uploads/2016/05/boire-un-verre1-810x538.jpg">
+                <div class="card-summary">
+                    <h3>Titre</h3>
+                    <p>Alan Bartlett Shepard Jr. est un aviateur naval, pilote d'essai, astronaute et homme d'affaires américain né le 18 novembre 1923 à Derry (New Hampshire) et mort le 21 juillet 1998 à Pebble Beach (Californie). En 1961, il devient le premier Américain à voyager dans l'espace et, en 1971, il marche sur la Lune</p>
+                </div>
             </div>
-            <div class="card col s6">
-
+            <div class="card-BP">
+                <img src="https://www.shbarcelona.fr/blog/fr/wp-content/uploads/2016/05/boire-un-verre1-810x538.jpg">
+                <div class="card-summary">
+                    <h3>Titre</h3>
+                    <p>Alan Bartlett Shepard Jr. est un aviateur naval, pilote d'essai, astronaute et homme d'affaires américain né le 18 novembre 1923 à Derry (New Hampshire) et mort le 21 juillet 1998 à Pebble Beach (Californie). En 1961, il devient le premier Américain à voyager dans l'espace et, en 1971, il marche sur la Lune</p>
+                </div>
             </div>
         </div>
         <!--
