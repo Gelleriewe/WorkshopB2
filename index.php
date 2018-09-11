@@ -14,12 +14,7 @@ and open the template in the editor.
                 <link rel="stylesheet" href="CSS/CSS_Index.css">
     </head>
     <body>
-<<<<<<< HEAD
-        <?php
-        
-        panpan
-        ?>
-=======
+
 
       <?php include 'include/nav.php'; ?>
         <div class="carousel carousel-slider">
@@ -40,6 +35,5 @@ and open the template in the editor.
           </div>
 
         </div>
->>>>>>> 0624e5c3c95feb54ca1aca358e61ceb49f97e03d
     </body>
 </html>
