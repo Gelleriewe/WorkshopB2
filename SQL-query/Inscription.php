@@ -27,6 +27,7 @@ if ($MDP1==$MDP2) {
     'Identifiant'=>$ID ));
     header('Location: ../Index.php');
 
+
   }
   else {header('Location: ../Sign_in.php?errorPP=Pseudo pris');}
 }
