@@ -15,7 +15,7 @@ and open the template in the editor.
         <!-- JS materialize -->
         <script src="./javascript/bons-plans.js"></script>
     </head>
-    <body>
+    <body background="Images/Nantes.jpg" class="background">
         <?php include 'include/nav.php'; ?>
 
 
