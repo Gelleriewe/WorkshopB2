@@ -90,6 +90,8 @@ table.highlight > tbody > tr:hover {
 }
 .add-bon-plan>a{
     max-width: 200px;
+<<<<<<< HEAD
+=======
 }
 
 #bons-plans{
@@ -182,4 +184,5 @@ table.highlight > tbody > tr:hover {
     border-radius: 51px;
     transform: translateX(-15px);
 
+>>>>>>> 7602c18db675d4002852f22754838176823403ac
 }
