@@ -109,6 +109,7 @@ table.highlight > tbody > tr:hover {
     width: 600px;
     height: 300px;
     display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -125,8 +126,49 @@ table.highlight > tbody > tr:hover {
 .card-summary{
     display: flex;
     flex-direction: column;
+    height: 220px;
+    overflow: hidden;
+    width: 55%;
+    padding-top: 20px;
 }
 
-.card-summary>h3,p{
+.card-summary>h3{
     width: 100%;
+    margin: 0px;
+
+}
+.card-summary>p{
+    margin:0px;
+    width: 100%;
+}
+
+.category{
+    width:100%;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cat{
+    width: auto;
+    max-width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7790d;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px lightgrey;
+    color: white;
+    
+    
+
+
+}
+.cat>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 51px;
+    transform: translateX(-15px);
+
 }
