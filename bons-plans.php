@@ -53,6 +53,22 @@ and open the template in the editor.
 
 
         </div>
+        <div id="bons-plans row">
+
+            <div class="card col s6">
+
+            </div>
+            <div class="card col s6">
+
+            </div>
+            <div class="card col s6">
+
+            </div>
+            <div class="card col s6">
+
+            </div>
+        </div>
+        <!--
         <div class="tableau-bons-plans">
             <table class="highlight striped">
                 <thead>
@@ -95,16 +111,18 @@ and open the template in the editor.
             </table>
 
 
-            <ul class="pagination right">
-                <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
-                <li class="active"><a href="#!">1</a></li>
-                <li class="waves-effect"><a href="#!">2</a></li>
-                <li class="waves-effect"><a href="#!">3</a></li>
-                <li class="waves-effect"><a href="#!">4</a></li>
-                <li class="waves-effect"><a href="#!">5</a></li>
-                <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
-            </ul>
-        </div>
+
+        <ul class="pagination right">
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+            <li class="active"><a href="#!">1</a></li>
+            <li class="waves-effect"><a href="#!">2</a></li>
+            <li class="waves-effect"><a href="#!">3</a></li>
+            <li class="waves-effect"><a href="#!">4</a></li>
+            <li class="waves-effect"><a href="#!">5</a></li>
+            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+    </div>
+        -->
         <div class="add-bon-plan">
             <h3>Envie d'ajouter ta propre activité ?</h3>
             <a class="waves-effect waves-light btn col s1"><i class="material-icons left">playlist_add</i>Ajouter</a>
