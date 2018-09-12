@@ -1,8 +1,7 @@
 <nav id="navbar">
     <div>
       <a href="index.php">
-        <img src="http://image.noelshack.com/fichiers/2018/37/3/1536758315-animal-1296937-640.png" alt="étudiants, campus, bons plans, avatanges étudiants">
-      </a>
+        logo</a>
     </div>
 
     <div>
