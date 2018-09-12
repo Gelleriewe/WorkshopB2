@@ -1,22 +1,8 @@
-<!DOCTYPE html>
-
-<?php include_once 'config/config.php'; ?>
-<html lang="fr">
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>connexion</title>
-    <?php
-    include_once 'include/head.php';
-    ?>
-  </head>
-  <body background="Images/Sea.jpg" class="background" >
-      <center>
-      <div class="container">
+      <center class="animetoi">
+      <div class="wrapper ">
         <div class="row">
-          <div class="col s6">
-        <h1>Inscrivez-vous</h1>
+          <div class="col s12">
+        <h3>Inscrivez-vous</h3>
         <form method="post" action="SQL-query/Inscription.php" class="Signin">
            <input type="Text" name="Pseudo"  required placeholder="Pseudo" >
               <br>
@@ -53,9 +39,5 @@
            <br>
            <input  type="submit" class="waves-effect waves-light btn"value="Inscription">
         </form>
-      </div>
-      </div>
-    </center>
 
-  </body>
-</html>
+    </center>

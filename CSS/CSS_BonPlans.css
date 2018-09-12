@@ -1,3 +1,6 @@
+
+
+
 table.highlight > tbody > tr:hover {
     background-color: rgb(161, 213, 236);
 }
@@ -20,22 +23,22 @@ table.highlight > tbody > tr:hover {
 
 
     .search-bar>.s5 {
-        width: 100% !important; 
+        width: 100% !important;
         left: auto !important;
         right: auto !important;
     }
     .search-bar>.s3 {
-        width: 100% !important; 
+        width: 100% !important;
         left: auto !important;
         right: auto !important;
     }
     .search-bar>.s2 {
-        width: 100% !important; 
+        width: 100% !important;
         left: auto !important;
         right: auto !important;
     }
     .search-bar>.s1 {
-        width: 100% !important; 
+        width: 100% !important;
         left: auto !important;
         right: auto !important;
     }

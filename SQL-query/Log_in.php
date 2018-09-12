@@ -1,19 +1,5 @@
-<!doctype html>
-
-<html lang="fr">
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>connexion</title>
-
-    <?php include 'include/head.php'; ?>
-
-
-  </head>
-  <body background="Images/Sea.jpg" class="background">
       <?php
-      include_once 'config/config.php';
+  /*    include_once 'config/config.php';
       $db = new PDO("mysql:host=" . Config::SERVERNAME . ";dbname=" . Config::DBNAME, Config::USER, Config::PASSWORD);
       @$identifiant=@$_COOKIE['IdConnexion'];
       $testcookie=$db->prepare("SELECT Identifiant FROM identifiants WHERE Identifiant = '$identifiant'");
@@ -27,12 +13,11 @@
         $cookie_name = "IdConnexion";
         $cookie_value = "$ID";
         setcookie($cookie_name, $cookie_value);
-        header('Location: Index.php');}
+        //header('Location: Index.php');
+      }*/
 
       ?>
-
-
-        <div class="container">
+        <div class="wrapper">
         <div class="row">
         <div class="col s6">
           <h1>Connectez vous</h1>
@@ -42,11 +27,11 @@
             name="MDP"
             required placeholder="mot de passe"
             >  <br>
-           <input  type="submit" class="waves-effect waves-light btn"value="OK">
+           <input   type="submit" class="waves-effect waves-light btn"value="OK">
         </form>
+        <div class="noback">
+        <button onclick="changeform()" class="waves-effect waves-light btn"> Pas de compte ? Inscrivez-vous! </button>
       </div>
       </div>
       </div>
-
-  </body>
-</html>
+      </div>

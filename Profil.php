@@ -6,12 +6,13 @@
         <title></title>
         <?php include 'include/head.php'; ?>
         <!--  CSS général -->
-        <link rel="stylesheet" href="./CSS/CSS_BonPlans.css">
+        <link rel="stylesheet" href=" CSS/CSS_BonPlans.css">
 
         <!-- JS materialize -->
         <script src="./javascript/bons-plans.js"></script>
     </head>
     <body background="Images/Sea.jpg" class="background">
+      <div class="wrapper">
         <?php include 'include/nav.php'; ?>
         <?php
             $Profilage=$db->prepare("SELECT Name, FirstName, Nick, Mail FROM identifiants WHERE Identifiant = '$identifiant'");
@@ -31,19 +32,7 @@
             echo "<h3> Mail </h3>";
             echo "$Mail";
 
-
-
-
-
-
-
-
-
-
-
-         ?>
-
-
-
+            ?>
+          </div>
     </body>
 </html>
