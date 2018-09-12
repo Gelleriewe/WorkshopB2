@@ -15,12 +15,12 @@ body{
     left: 0px;
     right: 0px;
     z-index: 999;
+    background-color: #6ca54d;
 }
 
 #navbar>div{
     width: 50%;
     display: flex
-
 }
 
 #navbar>div:nth-child(1){
@@ -29,6 +29,11 @@ body{
 
 #navbar>div:nth-child(2){
     justify-content: flex-end;
+}
+
+#navbar>div>a>img{
+    height: 10vh;
+    width: auto;
 }
 
 @media screen and (min-width: 0px) {
