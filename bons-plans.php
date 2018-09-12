@@ -61,7 +61,7 @@ and open the template in the editor.
 
         <div class="add-bon-plan">
             <h3>Envie d'ajouter ta propre activité ?</h3>
-            <a class="waves-effect waves-light btn col s1"><i class="material-icons left">playlist_add</i>Ajouter</a>
+            <a href="New_Article.php" class="waves-effect waves-light btn col s1"><i class="material-icons left">playlist_add</i>Ajouter</a>
         </div>
     </body>
 </html>
