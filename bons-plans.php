@@ -4,6 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
+<?php include_once '../config/config.php'; ?>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -55,7 +56,7 @@ and open the template in the editor.
         </div>
         <h1></h1>
         <div id="bons-plans">
-           
+
 
         </div>
 

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-
+<?php include_once 'config/config.php'; ?>
 <html lang="fr">
   <head>
 
@@ -11,7 +11,7 @@
     include_once 'include/head.php';
     ?>
   </head>
-  <body >
+  <body background="Images/Sea.jpg" class="background" >
       <center>
       <div class="container">
         <div class="row">
@@ -23,14 +23,10 @@
               <?php
               if (isset($_GET['errorPP'])) {
                 echo '<p class="red">', $_GET['errorPP'], '</p>';
-                // code...
               }
-
                ?>
            <br>
-
            <input type="password" name="MDP1" required placeholder="Mot De Passe" class="">  <br>
-
            <?php
            if (isset($_GET['errorMDP'])) {
             echo '<p class="red">', $_GET['errorMDP'], '</p>';
