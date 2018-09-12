@@ -24,8 +24,8 @@ and open the template in the editor.
                 <!--  CSS général -->
                 <link rel="stylesheet" href="CSS/CSS_Index.css">
     </head>
-    <body>
 
+    <body>
       <?php include 'include/nav.php'; ?>
         <div class="carousel carousel-slider">
 
@@ -49,7 +49,7 @@ and open the template in the editor.
         <div class="description-site col s12 m6">
           <h4 class="titre">Bienvenue sur Avantages Étudiant</h4>
             <p>le site qui favorise l'accès à différentes activités aux étudiants.</p>
-            <div class="collaps">
+          <div class="collaps">
               <ul class="collapsible">
               <li id='li1' onclick="scrollto('li1')">
                 <div class="collapsible-header">
@@ -65,7 +65,7 @@ and open the template in the editor.
                 </div>
               </li>
             </ul>
-            </div>
+          </div>
         </div>
       <div class="col s12 m6">
         <div class="">
@@ -96,8 +96,3 @@ and open the template in the editor.
     </div>
     </body>
 </html>
-
-<script>
-
-
-</script>
