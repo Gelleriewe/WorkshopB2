@@ -15,7 +15,6 @@ and open the template in the editor.
         <!-- JS materialize -->
         <script src="./javascript/bons-plans.js"></script>
     </head>
-<<<<<<< HEAD
     <body background="Images/Sea.jpg" class="background">
       <div class="wrapper">
         <?php include 'include/nav.php'; ?>
@@ -39,12 +38,5 @@ and open the template in the editor.
 
             ?>
           </div>
-=======
-    <body background="Images/Nantes.jpg" class="background">
-        <?php include 'include/nav.php'; ?>
-        
-
-
->>>>>>> 2e4c5482a4da9b90e04c1862e103bbc65153857f
     </body>
 </html>
