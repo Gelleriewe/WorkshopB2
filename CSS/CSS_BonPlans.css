@@ -103,6 +103,7 @@ table.highlight > tbody > tr:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 
@@ -113,6 +114,7 @@ table.highlight > tbody > tr:hover {
     height: 300px;
     display: flex;
     flex-wrap: wrap;
+    cursor: pointer;
 
 }
 
