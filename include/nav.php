@@ -10,12 +10,7 @@
             <li><a href="index.php">Accueil</a></li>
             <li><a href="Bons-plans.php">Bon plans</a></li>
             <li><a href="Creation-Bons-plans">Nouveau</a></li>
-            <?php    class config{
-                    const SERVERNAME="localhost";
-                    const DBNAME="workshop";
-                    const USER="root";
-                    const PASSWORD="youshallnotpass";}
-             ?>
+
 
             <?php
             $db = new PDO("mysql:host=" . Config::SERVERNAME . ";dbname=" . Config::DBNAME, Config::USER, Config::PASSWORD);

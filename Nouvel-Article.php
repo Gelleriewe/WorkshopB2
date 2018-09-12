@@ -23,6 +23,15 @@ and open the template in the editor.
                     <div class="file-field input-field col s3">
                         <div class="btn">
                             <span>File</span>
+                            <input required type="file" accept="image/gif, image/jpeg, image/png, image/jpg" name="photoArticleSummary">
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text">
+                        </div>
+                    </div>
+                    <div class="file-field input-field col s3">
+                        <div class="btn">
+                            <span>File</span>
                             <input required type="file" accept="image/gif, image/jpeg, image/png, image/jpg" name="photoArticle">
                         </div>
                         <div class="file-path-wrapper">
