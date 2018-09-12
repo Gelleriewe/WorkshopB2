@@ -7,28 +7,19 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-<<<<<<< HEAD
-        <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <script type="text/javascript" src="js/materialize.min.js"></script>
 
         <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
 
-=======
->>>>>>> e6693e37701fc9d1fc03c32f6ec90e7beff839ef
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+
         <title></title>
         <?php include 'include/head.php'; ?>
                 <script src="./javascript/index.js"></script>
                 <!--  CSS général -->
                 <link rel="stylesheet" href="CSS/CSS_Index.css">
     </head>
-    <body>
 
+    <body>
       <?php include 'include/nav.php'; ?>
         <div class="carousel carousel-slider">
 
@@ -46,13 +37,13 @@ and open the template in the editor.
           <div class="carousel-item grey white-text" href="#four!">
             <h2>les meilleurs bons plans</h2>
           </div>
+        </div>
 
-<<<<<<< HEAD
       <div class="row">
         <div class="description-site col s12 m6">
           <h4 class="titre">Bienvenue sur Avantages Étudiant</h4>
             <p>le site qui favorise l'accès à différentes activités aux étudiants.</p>
-            <div class="collaps">
+          <div class="collaps">
               <ul class="collapsible">
               <li id='li1' onclick="scrollto('li1')">
                 <div class="collapsible-header">
@@ -68,7 +59,7 @@ and open the template in the editor.
                 </div>
               </li>
             </ul>
-            </div>
+          </div>
         </div>
       <div class="col s12 m6">
         <div class="">
@@ -90,20 +81,12 @@ and open the template in the editor.
         <div class="">
             <div class="card blue-grey darken-1">
         <div class="card-content white-text">
-          <span class="card-title">CATÉGORIES LES PLUS RECHERCHÉES</span>
+          <span class="card-title">LES CATÉGORIES LES PLUS RECHERCHÉES</span>
           <p></p>
         </div>
             </div>
         </div>
       </div>
     </div>
-=======
-        </div>
->>>>>>> e6693e37701fc9d1fc03c32f6ec90e7beff839ef
     </body>
 </html>
-
-<script>
-
-
-</script>

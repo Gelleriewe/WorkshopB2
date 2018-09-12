@@ -26,11 +26,9 @@
   background-image: url(https://image.noelshack.com/fichiers/2018/37/2/1536669703-live-concert-455762-1920.jpg);
 }
 
-
 .carousel-item:nth-of-type(2){
   background-image: url(http://image.noelshack.com/fichiers/2018/37/2/1536669703-wave-1246560-1920.jpg);
 }
-
 
 .carousel-item:nth-of-type(3){
   background-image: url(http://image.noelshack.com/fichiers/2018/37/2/1536669703-jetty-768581-1920.jpg);
@@ -40,13 +38,17 @@
   background-image: url(http://image.noelshack.com/fichiers/2018/37/3/1536745096-graduation-995042-1920.jpg);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 028373ddec41941f70483621b7fd316d17b0bf75
 .description-site{
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
 .rotate{
   transform: rotate(90deg);
+<<<<<<< HEAD
 }
 .h2{
 margin:auto;
@@ -60,4 +62,6 @@ text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85,
 -20px -60px 60px #cd4606,
 0 -80px 70px #973716, 10px -90px 80px #451b0e;
 
+=======
+>>>>>>> 028373ddec41941f70483621b7fd316d17b0bf75
 }
