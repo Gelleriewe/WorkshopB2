@@ -18,21 +18,30 @@ bottom: 5%;
 left: 50%;
 }
 
+.nofront
+{
+position: absolute;
+bottom: 2%;
+left: 26%;
+}
+
 .animetoi{
 
-  animation-name: fadein;
-  animation-duration:10s ;
+  animation-name: slidein;
+  animation-duration:1s ;
   animation-timing-function: ease-in-out;
+
 
 }
 
 
-@keyframes fadein {
+@keyframes slidein {
   0%{
-    transform:translateY(-50vh);
+
+    opacity: 0;
   }
 
   100%{
-    transform:translateY(0px);
-  }
+    opacity: ;
+    }
 }

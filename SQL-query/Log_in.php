@@ -27,7 +27,7 @@
       }*/
 
       ?>
-        <div class="wrapper">
+        <div class="wrapper animetoi">
         <div class="row">
         <div class="col s6">
           <h1>Connectez vous</h1>
