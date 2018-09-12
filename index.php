@@ -7,7 +7,6 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-<<<<<<< HEAD
         <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
@@ -19,8 +18,6 @@ and open the template in the editor.
         <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
 
-=======
->>>>>>> e6693e37701fc9d1fc03c32f6ec90e7beff839ef
         <title></title>
         <?php include 'include/head.php'; ?>
                 <script src="./javascript/index.js"></script>
@@ -47,7 +44,6 @@ and open the template in the editor.
             <h2>les meilleurs bons plans</h2>
           </div>
 
-<<<<<<< HEAD
       <div class="row">
         <div class="description-site col s12 m6">
           <h4 class="titre">Bienvenue sur Avantages Étudiant</h4>
@@ -97,9 +93,7 @@ and open the template in the editor.
         </div>
       </div>
     </div>
-=======
         </div>
->>>>>>> e6693e37701fc9d1fc03c32f6ec90e7beff839ef
     </body>
 </html>
 
