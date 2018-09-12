@@ -2,7 +2,6 @@
     <div>
         <a href="index.php">Logo</a>
     </div>
-
     <div>
         <ul>
             <li><a href="index.php">Accueil</a></li>
@@ -17,9 +16,10 @@
              ?>
 
             <?php
+            @$identifiant=$_COOKIE['IdConnexion'];
 
             $db = new PDO("mysql:host=" . Config::SERVERNAME . ";dbname=" . Config::DBNAME, Config::USER, Config::PASSWORD);
-            @$identifiant=$_COOKIE['IdConnexion'];
+
             $testcookie=$db->prepare("SELECT Identifiant FROM identifiants WHERE Identifiant = '$identifiant'");
             $testcookie->execute();
             $result = $testcookie->fetchALL();

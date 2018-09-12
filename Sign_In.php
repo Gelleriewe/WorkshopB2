@@ -23,14 +23,10 @@
               <?php
               if (isset($_GET['errorPP'])) {
                 echo '<p class="red">', $_GET['errorPP'], '</p>';
-                // code...
               }
-
                ?>
            <br>
-
            <input type="password" name="MDP1" required placeholder="Mot De Passe" class="">  <br>
-
            <?php
            if (isset($_GET['errorMDP'])) {
             echo '<p class="red">', $_GET['errorMDP'], '</p>';

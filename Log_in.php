@@ -21,7 +21,13 @@
       $result = $testcookie->fetchALL();
       $nb2 = count($result);
       if($nb2==0){}
-      else {header('Location: Index.php');}
+      else {
+        $ID=$Identifiant;
+        $ID = hash('sha512', $ID);
+        $cookie_name = "IdConnexion";
+        $cookie_value = "$ID";
+        setcookie($cookie_name, $cookie_value);
+        header('Location: Index.php');}
 
       ?>
 
