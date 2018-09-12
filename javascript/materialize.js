@@ -5786,4 +5786,3 @@ M.anime = function () {
                     }();
             M.Range = t, M.jQueryLoaded && M.initializeJqueryWrapper(t, "range", "M_Range"), t.init(s("input[type=range]"))
         }(cash, M.anime);
-

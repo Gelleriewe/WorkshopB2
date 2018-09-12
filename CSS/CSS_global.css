@@ -3,7 +3,6 @@ body,html{
     padding: 0px;
 }
 
-
 body{
     padding-top: 10vh;
 }
@@ -17,6 +16,7 @@ body{
     right: 0px;
     z-index: 999;
 }
+
 #navbar>div{
     width: 50%;
     display: flex
@@ -31,28 +31,27 @@ body{
     justify-content: flex-end;
 }
 
-
 @media screen and (min-width: 0px) {
     #navbar>div>ul{
         display: none;
-
     }
         #navbar>div>i{
         display: block;
-
     }
-
 }
-
 
 @media screen and (min-width: 720px) {
     #navbar>div>ul{
         display: flex;
-
     }
         #navbar>div>i{
         display: none;
-
     }
+}
 
+@media screen and (min-width : 601px) {
+    #navbar{
+      height: 64px;
+      line-height: 78px;
+    }
 }
