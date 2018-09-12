@@ -8,8 +8,8 @@
     <title>connexion</title>
 
     <?php include 'include/head.php'; ?>
-    <!--  CSS général -->
-    <link rel="stylesheet" href="CSS/CSS_BonPlans.css">
+
+
   </head>
   <body background="Images/Sea.jpg" class="background">
       <?php
@@ -25,11 +25,12 @@
 
       ?>
 
-        <h1>Connectez vous</h1>
-        <div class="row">
-        <div class="col s3">
 
-        <form method="post" action="SQL-query/tempConnect.php" >
+        <div class="container">
+        <div class="row">
+        <div class="col s6">
+          <h1>Connectez vous</h1>
+        <form method="post" action="SQL-query/tempConnect.php" class="Signin" >
            <input type="Text" name="Identifiant"  required placeholder="E-dentifiant" >   <br>
            <input type="password"
             name="MDP"
@@ -37,6 +38,7 @@
             >  <br>
            <input  type="submit" class="waves-effect waves-light btn"value="OK">
         </form>
+      </div>
       </div>
       </div>
 
