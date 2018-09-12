@@ -6,8 +6,8 @@ $db = new PDO("mysql:host=" . Config::SERVERNAME . ";dbname=" . Config::DBNAME, 
 
 
 //UPLOAD DU FICHIER
-$currentDir = getcwd();
-$uploadDirectory = "/uploads/images-articles/";
+//$currentDir = getcwd();
+$uploadDirectory = "./uploads/images-articles/";
 
 $errors = []; // Store all foreseen and unforseen errors here
 
@@ -17,13 +17,12 @@ $fileName = $_FILES['photoArticle']['name'];
 $fileSize = $_FILES['photoArticle']['size'];
 $fileTmpName = $_FILES['photoArticle']['tmp_name'];
 $fileType = $_FILES['photoArticle']['type'];
-$fileExtension = strtolower(end(explode('.', $fileName)));
-
-$uploadPath = $currentDir . $uploadDirectory . basename($fileName);
+$fileExtension = explode('.', $fileName);
+$uploadPath = $uploadDirectory . basename($fileName);
 
 if (isset($_POST['submit'])) {
 
-    if (!in_array($fileExtension, $fileExtensions)) {
+    if (!in_array($fileExtension[1], $fileExtensions)) {
         $errors[] = "This file extension is not allowed. Please upload a JPEG or PNG file";
     }
 
