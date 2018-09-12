@@ -1,14 +1,14 @@
 <?php
 include_once '../config/config.php';
 $db = new PDO("mysql:host=" . Config::SERVERNAME . ";dbname=" . Config::DBNAME, Config::USER, Config::PASSWORD, array(PDO::ATTR_PERSISTENT => true, PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
-$req = $db->prepare("SELECT Article_Name, Article_Creation, Contents, Campus,ID_Creator, Article_Update, url_img_summary, Tag_Id FROM `article`");
+$req = $db->prepare("SELECT Article_Name, Article_Creation, description, Campus,ID_Creator, Article_Update, url_img_summary, Tag_Id FROM `article`");
 
 
 
 $req->execute();
 while ($donnéetab = $req->fetch()) {
     $nomArticle = $donnéetab['Article_Name'];
-    $contenuArticle = $donnéetab['Contents'];
+    $contenuArticle = $donnéetab['description'];
     $idTag = $donnéetab['Tag_Id'];
     ?>
     <div class="card-BP">
