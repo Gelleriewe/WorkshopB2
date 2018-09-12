@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-
+<?php include_once 'config/config.php'; ?>
 <html lang="fr">
   <head>
 

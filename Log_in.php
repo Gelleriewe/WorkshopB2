@@ -18,7 +18,7 @@
       $nb2 = count($result);
       if($nb2==0){}
       else {header('Location: Index.php');}
-      
+
       ?>
       <center>
         <img src="HUB.png" height="320" width="480">

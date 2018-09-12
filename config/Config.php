@@ -2,6 +2,6 @@
         const SERVERNAME="localhost";
         const DBNAME="workshop";
         const USER="root";
-        const PASSWORD="";}
+        const PASSWORD="youshallnotpass";}
 
  ?>
