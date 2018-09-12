@@ -42,7 +42,7 @@ and open the template in the editor.
       <div class="row">
         <div class="description-site col s12 m6">
           <h4 class="titre">Bienvenue sur Avantages Étudiant</h4>
-            <p>le site qui favorise l'accès à différentes activités aux étudiants.</p>
+            <p>le site qui vous permet d'attraper les meilleurs bons plans.</p>
           <div class="collaps">
               <ul class="collapsible">
               <li id='li1' onclick="scrollto('li1')">
