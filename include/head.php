@@ -11,3 +11,7 @@
 
 <!--  icônes -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+            <?php    
+            include './config/Config.php';
+             ?>
