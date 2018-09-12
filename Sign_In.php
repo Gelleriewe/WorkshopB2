@@ -11,7 +11,7 @@
     include_once 'include/head.php';
     ?>
   </head>
-  <body >
+  <body background="Images/Sea.jpg" class="background" >
       <center>
       <div class="container">
         <div class="row">
