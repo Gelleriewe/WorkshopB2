@@ -49,8 +49,8 @@ and open the template in the editor.
                 <div class="collapsible-header">
                   <i class="material-icons">help</i>
                   Informations sur notre site
-                  <span class="new badge">1</span></div>
-                <div class="collapsible-body"><p>je veux que ça marche !!</p></div>
+                  </div>
+                <div class="collapsible-body"><p>Avantages étudiant est avant tout un site simple et dynamique.</p></div>
               </li>
             </ul>
             </div>
