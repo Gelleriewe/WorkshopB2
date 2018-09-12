@@ -11,7 +11,7 @@
         <!-- JS materialize -->
         <script src="./javascript/bons-plans.js"></script>
     </head>
-    <body background="Images/Nantes.jpg" class="background">
+    <body background="Images/Sea.jpg" class="background">
         <?php include 'include/nav.php'; ?>
         <?php
 
