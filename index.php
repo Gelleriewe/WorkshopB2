@@ -43,6 +43,7 @@ and open the template in the editor.
           <div class="carousel-item grey white-text" href="#four!">
             <h2>les meilleurs bons plans</h2>
           </div>
+        </div>
 
       <div class="row">
         <div class="description-site col s12 m6">
@@ -86,14 +87,13 @@ and open the template in the editor.
         <div class="">
             <div class="card blue-grey darken-1">
         <div class="card-content white-text">
-          <span class="card-title">CATÉGORIES LES PLUS RECHERCHÉES</span>
+          <span class="card-title">LES CATÉGORIES LES PLUS RECHERCHÉES</span>
           <p></p>
         </div>
             </div>
         </div>
       </div>
     </div>
-        </div>
     </body>
 </html>
 
