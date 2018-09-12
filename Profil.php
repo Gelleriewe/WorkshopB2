@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
     <head>
         <meta charset="UTF-8">
@@ -11,6 +15,7 @@
         <!-- JS materialize -->
         <script src="./javascript/bons-plans.js"></script>
     </head>
+<<<<<<< HEAD
     <body background="Images/Sea.jpg" class="background">
       <div class="wrapper">
         <?php include 'include/nav.php'; ?>
@@ -34,5 +39,12 @@
 
             ?>
           </div>
+=======
+    <body background="Images/Nantes.jpg" class="background">
+        <?php include 'include/nav.php'; ?>
+        
+
+
+>>>>>>> 2e4c5482a4da9b90e04c1862e103bbc65153857f
     </body>
 </html>

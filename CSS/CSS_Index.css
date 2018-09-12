@@ -26,20 +26,22 @@
   background-image: url(https://image.noelshack.com/fichiers/2018/37/2/1536669703-live-concert-455762-1920.jpg);
 }
 
-
 .carousel-item:nth-of-type(2){
   background-image: url(http://image.noelshack.com/fichiers/2018/37/2/1536669703-wave-1246560-1920.jpg);
 }
-
 
 .carousel-item:nth-of-type(3){
   background-image: url(http://image.noelshack.com/fichiers/2018/37/2/1536669703-jetty-768581-1920.jpg);
 }
 
 .carousel-item:nth-of-type(4){
-  background-image: url();
+  background-image: url(http://image.noelshack.com/fichiers/2018/37/3/1536745096-graduation-995042-1920.jpg);
 }
 
 .description-site{
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+.rotate{
+  transform: rotate(90deg);
 }

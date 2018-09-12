@@ -1,5 +1,24 @@
+<<<<<<< HEAD:SQL-query/Sign_In.php
       <center class="animetoi">
       <div class="wrapper ">
+=======
+<!DOCTYPE html>
+
+
+<html lang="fr">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>connexion</title>
+    <?php
+    include_once 'include/head.php';
+    ?>
+  </head>
+  <body >
+      <center>
+      <div class="container">
+>>>>>>> 2e4c5482a4da9b90e04c1862e103bbc65153857f:Sign_In.php
         <div class="row">
           <div class="col s12">
         <h3>Inscrivez-vous</h3>
@@ -9,10 +28,14 @@
               <?php
               if (isset($_GET['errorPP'])) {
                 echo '<p class="red">', $_GET['errorPP'], '</p>';
+                // code...
               }
+
                ?>
            <br>
+
            <input type="password" name="MDP1" required placeholder="Mot De Passe" class="">  <br>
+
            <?php
            if (isset($_GET['errorMDP'])) {
             echo '<p class="red">', $_GET['errorMDP'], '</p>';
