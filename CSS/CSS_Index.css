@@ -37,9 +37,13 @@
 }
 
 .carousel-item:nth-of-type(4){
-  background-image: url();
+  background-image: url(http://image.noelshack.com/fichiers/2018/37/3/1536745096-graduation-995042-1920.jpg);
 }
 
 .description-site{
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+.rotate{
+  transform: rotate(90deg);
 }
