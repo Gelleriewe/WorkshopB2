@@ -12,7 +12,7 @@
     <?php include_once 'config/config.php'; ?>
 
   </head>
-  <body background="Images/Sea.jpg" class="background">
+  <body background="Images/Paysage.jpg" class="background">
         <center>
 
 

@@ -17,12 +17,12 @@ and open the template in the editor.
     </head>
     <body background="Images/Sea.jpg" class="background">
       <div class="wrapper">
-        <?php include 'include/nav.php'; ?>
+        <?php include 'include/nav.php';
+   ?>
         <?php
             $Profilage=$db->prepare("SELECT Name, FirstName, Nick, Mail FROM identifiants WHERE Identifiant = '$identifiant'");
             $Profilage->execute();
             $profil = $Profilage->fetchALL();
-
             $Name=htmlspecialchars($profil[0][0]);
             $Firstname=htmlspecialchars($profil[0][1]);
             $Nick=htmlspecialchars($profil[0][2]);

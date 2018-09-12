@@ -43,5 +43,8 @@
            <br>
            <input  type="submit" class="waves-effect waves-light btn"value="Inscription">
         </form>
+        <div class="nofront">
+        <button onclick="Backform()" class="waves-effect waves-light btn"> Déjà un compte ? Connectez-vous! </button>
+      </div>
 
     </center>
