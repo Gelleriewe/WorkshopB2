@@ -23,7 +23,6 @@ and open the template in the editor.
             $Profilage=$db->prepare("SELECT Name, FirstName, Nick, Mail FROM identifiants WHERE Identifiant = '$identifiant'");
             $Profilage->execute();
             $profil = $Profilage->fetchALL();
-            var_dump($profil);
             $Name=htmlspecialchars($profil[0][0]);
             $Firstname=htmlspecialchars($profil[0][1]);
             $Nick=htmlspecialchars($profil[0][2]);
