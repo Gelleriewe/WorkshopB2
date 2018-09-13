@@ -17,18 +17,39 @@ and open the template in the editor.
     </head>
     <body>
         <?php include 'include/nav.php'; ?>
-        <div class="">
+        
+        
+        
+        <div class="container">
+            <h1 style="width: 100%; text-align: center; color: #444040;">Création d'un nouvel article</h1>
             <form  method="POST" enctype="multipart/form-data" action="./SQL-query/insert-article-complet.php" style="margin-top: 5vh;">
+                
+                
+                
                 <div class="row">
-                    <div class="file-field input-field col s3">
+
+
+                    <div class="file-field input-field col s6">
                         <div class="btn">
                             <span>File</span>
                             <input required type="file" accept="image/gif, image/jpeg, image/png, image/jpg" name="photoArticle">
                         </div>
                         <div class="file-path-wrapper">
-                            <input class="file-path validate" type="text">
+                            <input class="file-path validate" type="text" placeholder="Miniature">
                         </div>
                     </div>
+
+
+                    <div class="file-field input-field col s6">
+                        <div class="btn">
+                            <span>File</span>
+                            <input required type="file" accept="image/gif, image/jpeg, image/png, image/jpg" name="photoArticle2">
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text" placeholder="Couverture article">
+                        </div>
+                    </div>
+
                     <div class="input-field col s6">
                         <input required id="input_text" type="text" data-length="30" maxlength="30" name="titre">
                         <label for="input_text">Titre</label>

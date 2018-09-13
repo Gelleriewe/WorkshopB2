@@ -4,7 +4,7 @@
 $Identifiant=$_POST["Identifiant"];
 $MDP=$_POST["MDP"];
 include_once '../config/config.php';
-$db = new PDO("mysql:host=" . Config::SERVERNAME . ";dbname=" . Config::DBNAME, Config::USER, Config::PASSWORD);
+$db = new PDO("mysql:host=".Config::SERVEUR."; port=". Config::PORT ." ; charset=utf8; dbname=".Config::BASE, Config::UTILISATEUR, Config::MOTDEPASSE);
 /////////////////////////////////////
 $MDP=hash('sha512', $MDP);
 $req2=$db->prepare("SELECT Nick FROM identifiants WHERE Nick = '$Identifiant'  AND  PWD_Hash = '$MDP'");

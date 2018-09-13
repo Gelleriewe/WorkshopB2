@@ -47,6 +47,26 @@ table.highlight > tbody > tr:hover {
 
 
 }
+
+.animation-fade-in{
+    animation-name: fade-in;
+    animation-duration: 1s ;
+    animation-timing-function:  ease-in-out;
+}
+
+@keyframes fade-in{
+    0%{
+        opacity:0;
+       transform:translatey(-50px);
+    }
+    100%{
+        opacity:1;
+       transform:translatey(0px);
+    }
+}
+
+
+
 @media screen and (min-width: 720px) {
 
     .search-bar {
@@ -103,6 +123,7 @@ table.highlight > tbody > tr:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 
@@ -113,6 +134,9 @@ table.highlight > tbody > tr:hover {
     height: 300px;
     display: flex;
     flex-wrap: wrap;
+    cursor: pointer;
+    margin-bottom: 100px;
+    background-color: white;
 
 }
 
