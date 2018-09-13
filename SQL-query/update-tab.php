@@ -34,15 +34,9 @@ while ($donnéetab = $req->fetch()) {
                             <?php
                         }
                         ?>
-
-
         </div>
     </div>
 
     <?php
 }
 ?>
-
-
-
-
