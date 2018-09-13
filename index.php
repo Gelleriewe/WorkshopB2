@@ -26,27 +26,27 @@ and open the template in the editor.
             <h2 class="carousel-fixed-item center">Offrez-vous</h2>
 
           <div class="carousel-item grey white-text" href="#one!">
-            <h2>un divertissement</h2>
+            <h2>Un divertissement</h2>
           </div>
           <div class="carousel-item grey white-text" href="#two!">
-            <h2>une activité sportive</h2>
+            <h2>Une activité sportive</h2>
           </div>
           <div class="carousel-item grey white-text" href="#three!">
-            <h2>le voyage de vos rêves</h2>
+            <h2>Le voyage de vos rêves</h2>
           </div>
           <div class="carousel-item grey white-text" href="#four!">
-            <h2>les meilleurs bons plans</h2>
+            <h2>Les meilleurs bons plans</h2>
           </div>
         </div>
 
       <div class="row">
         <div class="description-site col s12 m6">
           <h4 class="titre">Bienvenue sur Avantages Étudiant</h4>
-            <p>le site qui vous permet d'attraper les meilleurs bons plans.</p>
+            <p>Le site vous permettant d'attraper les meilleurs bons plans.</p>
           <div class="collaps">
               <ul class="collapsible">
-              <li id='li1' onclick="scrollto('li1')">
-                <div class="collapsible-header">
+              <li id='li1'>
+                <div onclick="scrollto('li1')" class="collapsible-header">
                   <i id='fleche1' class="material-icons">arrow_forward</i>
                   Informations du site
                   </div>
@@ -57,6 +57,21 @@ and open the template in the editor.
                      Il vous sera même possible de créer vos bons plans et de les partager avec les autres utilisateurs.
                   </p>
                 </div>
+              </li>
+              <li id='li2' onclick="scroll('li2')">
+                    <div class="collapsible-header">
+                      <i id='help1' class="material-icons">help</i>
+                      Pourquoi choisir Avantages Étudiant ?
+                    </div>
+                        <div class="collapsible-body">
+                          <p>Choisir Avantages Étudiant c'est :</p>
+                            <ul id="liste">
+                              <li>Naviguer simplement et efficacement afin de trouver les meilleurs bons plans.</li>
+                              <li>Se faire plaisir seul ou à plusieurs.</li>
+                              <li>Partager des bons plans entre étudiants afin de renforcer la cohésion de groupe.</li>
+                            </ul>
+                          </p>
+                        </div>
               </li>
             </ul>
           </div>

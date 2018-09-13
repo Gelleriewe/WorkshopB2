@@ -63,3 +63,7 @@
 .rotate{
   transform: rotate(90deg);
 }
+
+ul#liste>li{
+  list-style-type: disc;
+}
