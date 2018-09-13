@@ -8,10 +8,10 @@
         <ul>
             <li><a href="index.php">Accueil</a></li>
             <li><a href="Bons-plans.php">Bon plans</a></li>
-            <li><a href="Creation-Bons-plans">Nouveau</a></li>
+            <li><a href="Article.php">Nouveau</a></li>
 
             <?php
-            
+
 
             $db = new PDO("mysql:host=" . Config::SERVERNAME . ";dbname=" . Config::DBNAME, Config::USER, Config::PASSWORD);
             @$identifiant=$_COOKIE['IdConnexion'];
