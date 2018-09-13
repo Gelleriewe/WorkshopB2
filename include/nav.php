@@ -1,13 +1,19 @@
 <nav id="navbar">
     <div>
       <a href="index.php">
+<<<<<<< HEAD
         logo</a>
+=======
+        <img style="display:none;" src="" alt="étudiants, campus, bons plans, avatanges étudiants">
+      </a>
+>>>>>>> 68da9ffd0294c1a77ab9bcfd5c8d24096f447d80
     </div>
 
     <div>
         <ul>
             <li><a href="index.php">Accueil</a></li>
             <li><a href="Bons-plans.php">Bon plans</a></li>
+<<<<<<< HEAD
             <li><a href="Article.php">Nouveau</a></li>
 
             <?php
@@ -31,6 +37,9 @@
 
 
 
+=======
+            <li><a href="Creation-Bons-plans">Nouveau</a></li>
+>>>>>>> 68da9ffd0294c1a77ab9bcfd5c8d24096f447d80
         </ul>
          <i class="material-icons">menu</i>
     </div>

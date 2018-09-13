@@ -9,7 +9,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title></title>
         <?php include 'include/head.php'; ?>
-        <!--  CSS général -->
+        <!--  CSS BonPlans -->
         <link rel="stylesheet" href="./CSS/CSS_BonPlans.css">
 
         <!-- JS materialize -->
