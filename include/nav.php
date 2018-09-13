@@ -1,25 +1,19 @@
 <nav id="navbar">
     <div>
       <a href="index.php">
-<<<<<<< HEAD
         logo</a>
-=======
-        <img style="display:none;" src="" alt="étudiants, campus, bons plans, avatanges étudiants">
-      </a>
->>>>>>> 667f6305683197c48d99bf32b5b417eae7f7ce1c
     </div>
 
     <div>
         <ul>
             <li><a href="index.php">Accueil</a></li>
             <li><a href="Bons-plans.php">Bon plans</a></li>
-            <li><a href="Creation-Bons-plans">Nouveau</a></li>
-<<<<<<< HEAD
+            <li><a href="Nouvel-Article.php">Nouveau</a></li>
 
             <?php
-            
 
-            $db = new PDO("mysql:host=" . Config::SERVERNAME . ";dbname=" . Config::DBNAME, Config::USER, Config::PASSWORD);
+
+            $db = new PDO("mysql:host=".Config::SERVEUR."; port=". Config::PORT ." ; charset=utf8; dbname=".Config::BASE, Config::UTILISATEUR, Config::MOTDEPASSE);
             @$identifiant=$_COOKIE['IdConnexion'];
 
             $testcookie=$db->prepare("SELECT Identifiant FROM identifiants WHERE Identifiant = '$identifiant'");
@@ -37,8 +31,6 @@
 
 
 
-=======
->>>>>>> 667f6305683197c48d99bf32b5b417eae7f7ce1c
         </ul>
          <i class="material-icons">menu</i>
     </div>
