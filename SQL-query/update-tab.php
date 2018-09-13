@@ -2,7 +2,7 @@
 //error_reporting(E_ALL);
 //ini_set("display_errors", 1);
 include_once '../config/Config.php';
-$db = new PDO("mysql:host=".Config::SERVEUR."; port=". Config::PORT ." ; charset=utf8; dbname=".Config::BASE, Config::UTILISATEUR, Config::MOTDEPASSE);
+$db = new PDO("mysql:host=".Config::SERVERNAME."; port=". Config::DBNAME ." ; charset=utf8; dbname=".Config::DBNAME, Config::USER, Config::PASSWORD);
 $req = $db->prepare("SELECT Article_ID, Article_Name, Article_Creation, description, Campus,ID_Creator, Article_Update, url_img_summary, Tag_Id FROM `article`");
 
 
