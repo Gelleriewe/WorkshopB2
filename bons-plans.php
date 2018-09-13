@@ -33,8 +33,7 @@ and open the template in the editor.
             <div class="col s3">
                 <div class="row">
                     <div class="input-field col s12">
-                        <i class="material-icons prefix">person_pin</i>
-                        <input type="text" id="autocomplete-input" class="autocomplete">
+                        <i class="material-icons prefix">person_pin</i> "autocomplete">
                         <label for="autocomplete-input">Créateur de l'article</label>
                     </div>
                 </div>
@@ -55,7 +54,7 @@ and open the template in the editor.
         </div>
         <h1></h1>
         <div id="bons-plans">
-           
+
 
         </div>
 

@@ -1,11 +1,11 @@
 <?php
-//error_reporting(E_ALL); 
-//ini_set("display_errors", 1); 
+//error_reporting(E_ALL);
+//ini_set("display_errors", 1);
 include_once '../config/Config.php';
 $db = new PDO("mysql:host=".Config::SERVEUR."; port=". Config::PORT ." ; charset=utf8; dbname=".Config::BASE, Config::UTILISATEUR, Config::MOTDEPASSE);
 
 
-$ID_Creator = '1';
+$ID_Creator =$_COOKIE['IdConnexion'];
 //UPLOAD DU FICHIER
 //$currentDir = getcwd();
 $uploadDirectory = "../uploads/images-articles/";
@@ -73,9 +73,10 @@ if (isset($_POST['submit'])) {
                         $campus = 'testcampus';
 
 
-                        
+
                         $Tag_id = '1';
-                        $ID_Creator = '1';
+
+                        $ID_Creator =$_COOKIE['IdConnexion'];
 
 
                         $req = $db->prepare("INSERT INTO article (Article_Name, description, Contents, Campus, url_img_summary, url_img, Tag_Id, ID_Creator)
@@ -109,9 +110,8 @@ if (isset($_POST['submit'])) {
         foreach ($errors as $error) {
             echo $error . "These are the errors" . "\n";
         }
+
     }
 }
+header('location:../index.php')
 ?>
-
-
-

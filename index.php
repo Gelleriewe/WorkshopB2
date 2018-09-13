@@ -47,7 +47,7 @@ and open the template in the editor.
               <ul class="collapsible">
               <li id='li1'>
                 <div onclick="scrollto('li1')" class="collapsible-header">
-                  <i id='fleche1' class="material-icons">arrow_forward</i>
+                  <i id='fleche1' class="material-icons" arrow_forward></i>
                   Informations du site
                   </div>
                 <div class="collapsible-body">
@@ -60,7 +60,7 @@ and open the template in the editor.
               </li>
               <li id='li2' onclick="scroll('li2')">
                     <div class="collapsible-header">
-                      <i id='help1' class="material-icons">help</i>
+                      <i id='help1' class="material-icons" help></i>
                       Pourquoi choisir Avantages Étudiant ?
                     </div>
                         <div class="collapsible-body">

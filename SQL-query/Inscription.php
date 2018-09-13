@@ -8,6 +8,7 @@ $MDP2=$_POST["MDP2"];///////
 $Nom=$_POST["Nom"];/////////
 $Prénom=$_POST["Prénom"];///
 $Email=$_POST["Email"];/////
+$Campus=$_POST["Campus"];///
 ////////////////////////////
 if ($MDP1==$MDP2) {
   $TestPseudo=$db->prepare("SELECT Nick FROM identifiants WHERE Nick = '$pseudo'");
@@ -17,14 +18,15 @@ if ($MDP1==$MDP2) {
   if($nb==0){
     $MDP1=hash('sha512',$MDP1);
     $ID=hash('sha512',$pseudo);
-    $inscription=$db->prepare("INSERT into identifiants (Name,FirstName,Nick,Mail,PWD_Hash,Identifiant) VALUES (:Name, :FirstName, :Nick, :Mail, :PWD_Hash, :Identifiant)");
+    $inscription=$db->prepare("INSERT into identifiants (Name,FirstName,Nick,Mail,PWD_Hash,Identifiant,Campus) VALUES (:Name, :FirstName, :Nick, :Mail, :PWD_Hash, :Identifiant, :Campus)");
     $inscription->execute(array(
     'Name' => $Nom ,
     'FirstName' => $Prénom ,
     'Nick' => $pseudo ,
     'Mail'=> $Email ,
     'PWD_Hash'=> $MDP1,
-    'Identifiant'=>$ID ));
+    'Identifiant'=>$ID,
+    'Campus'=>$Campus ));
     header('Location: ../Index.php');
 
 

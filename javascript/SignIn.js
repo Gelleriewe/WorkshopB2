@@ -1,6 +1,9 @@
 $(document).ready(function(){
 
    $( "#Signin" ).load( "SQL-query/Log_in.php" );
+   $(document).ready(function(){
+  $('select').formSelect();
+});
  });
 
 
