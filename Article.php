@@ -19,7 +19,7 @@ and open the template in the editor.
         <a class="btn" href="bons-plans.php">Retour</a>
         <?php include 'include/nav.php'; ?>
         <?php
-        $db = new PDO("mysql:host=" . Config::SERVERNAME . ";dbname=" . Config::DBNAME, Config::USER, Config::PASSWORD, array(PDO::ATTR_PERSISTENT => true, PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+        $db = new PDO("mysql:host=".Config::SERVEUR."; port=". Config::PORT ." ; charset=utf8; dbname=".Config::BASE, Config::UTILISATEUR, Config::MOTDEPASSE);
         $req = $db->prepare("SELECT  Article_Name, Article_Creation, description, Campus,ID_Creator, Article_Update, url_img_summary, Tag_Id FROM `article` where Article_ID = :Article_ID");
         $req->bindParam(':Article_ID', $_GET['Article']);
         

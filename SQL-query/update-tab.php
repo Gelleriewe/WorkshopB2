@@ -1,6 +1,8 @@
 <?php
-include_once '../config/config.php';
-$db = new PDO("mysql:host=" . Config::SERVERNAME . ";dbname=" . Config::DBNAME, Config::USER, Config::PASSWORD, array(PDO::ATTR_PERSISTENT => true, PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+//error_reporting(E_ALL); 
+//ini_set("display_errors", 1); 
+include_once '../config/Config.php';
+$db = new PDO("mysql:host=".Config::SERVEUR."; port=". Config::PORT ." ; charset=utf8; dbname=".Config::BASE, Config::UTILISATEUR, Config::MOTDEPASSE);
 $req = $db->prepare("SELECT Article_ID, Article_Name, Article_Creation, description, Campus,ID_Creator, Article_Update, url_img_summary, Tag_Id FROM `article`");
 
 
@@ -12,7 +14,7 @@ while ($donnéetab = $req->fetch()) {
     $idTag = $donnéetab['Tag_Id'];
     ?>
 
-    <div class="card-BP" onclick="window.location='./Article.php?Article=<?php echo $donnéetab['Article_ID'] ?>';">
+    <div class="card-BP animation-fade-in" onclick="window.location='./Article.php?Article=<?php echo $donnéetab['Article_ID'] ?>';">
         <img src="<?php echo $donnéetab['url_img_summary'] ?>">
         <div class="card-summary">
             <h3><?php echo $nomArticle ?></h3>
